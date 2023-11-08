@@ -226,7 +226,7 @@ for dataset, data_dict in zip(datasets, data_dicts):
     plot_car_trajectory(cones, data_dict, traj_tx, traj_ty, dataset.upper(), collision_coords[dataset])
 
 for dataset, data_dict in zip(datasets, data_dicts):
-    plt.plot(data_dict['carx'], data_dict['cary'], label=dataset.upper())
+    plt.plot(data_dict['carx'], data_dict['cary'], label=dataset.upper(), linewidth=5)
 plt.scatter(cones_x, cones_y, marker='s', label='Cone', color='orange')
 plt.plot(traj_tx, traj_ty, label='Trajectory', color='green')
 plt.legend()
