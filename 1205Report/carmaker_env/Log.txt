@@ -1,0 +1,14 @@
+[DLC/env_rws]
+ --> carmaker env low
+2023-12-01 19:03:00,998 - DLC/env_rws - Training Start
+2023-12-01 19:03:09,709 - DLC/env_rws - Training End
+[DLC/env_rws]
+ --> carmaker env low
+2023-12-01 19:05:46,496 - DLC/env_rws - Training Start
+2023-12-01 19:06:27,310 - DLC/env_rws - Keyboard Interrupt
+2023-12-01 19:06:27,310 - DLC/env_rws - Training End
+[DLC/env_rws]
+ --> carmaker env low
+2023-12-01 19:07:52,034 - DLC/env_rws - Training Start
+2023-12-01 19:08:10,013 - DLC/env_rws - Keyboard Interrupt
+2023-12-01 19:08:10,013 - DLC/env_rws - Training End

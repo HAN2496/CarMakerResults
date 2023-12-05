@@ -1,0 +1,64 @@
+각 파이썬 코드별 설명
+**아래에 설명이 없는 코드들은 현재 잠시 사용하지 않는 코드들임**
+
+[stable_baselines3]
+common > off_policy_algorithm > learn 함수
+ - pretrain 값을 인자로 받을 경우 학습 시작전 리플레이 버퍼를 이용하여 학습
+ - 주의:  리플레이 버퍼에 반드시 넣어주어야 함. (pretrain_train_low 참고)
+
+sac > sac
+ - pretrain 인자가 추가되어 있음
+
+[callbacks]
+train시 콜백 호출함수
+
+[camaker_cone]
+CarMaker환경에서 cone, Road, Lane, Car 등을 관리하는 코드
+
+[carmaker_data]
+CarMaker 환경의 데이터를 관리하는 코드.
+
+[carmaker_env_b]
+b level의 custom env
+
+[carmkaer_env_low]
+low level의 costum env
+
+[carmaker_trajectory(2, 3)]
+모든 level에 대해 trajectory를 관리하는 코드.
+low level의 경우 trajectory를 불러와 devDist, devAng을 계산하며, lookahead traj 반환
+
+[carmaker_trajectory_low]
+low level용 trajectory 코드
+
+[cm_control]
+Python-simulink-CarMaker간 데이터 송수신을 담당하는 코드
+
+[common_functions]
+여러 코드에서 공통적으로 사용하는 함수들을 빼놓은 코드
+
+[MyBezierCurve(2)]
+Bezier Curve를 이용하여 경로를 생선하는 코드
+
+[pretrain_extract_dataset]
+Pretrain 용 데이터셋을 추출하는 코드
+
+[pretrain_train_low]
+expert_data를 이용하여 pretrain을 진행한 뒤 학습을 진행하는 코드
+
+[tcp_test]
+시뮬링크와 파이썬간 TCP/IP 통신이 정상적으로 이루어지는지 확인
+
+[test]
+학습된 모델을 테스트하고, 결과를 datafiles/road_type/에 저장
+
+[train_b]
+B level 학습시 사용하는 train코드
+
+[train_low]
+low level 학습시 사용하는 train코드
+
+
+
+
+
